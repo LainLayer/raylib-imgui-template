@@ -4,13 +4,19 @@ This is a simple template I have created mostly for myself for using raylib with
 
 ## Building
 
-compile
+1) get the stuff
+```console
+git clone --recursive https://github.com/cimgui/cimgui
+git clone https://github.com/raylib-extras/rlImGui
+git clone https://github.com/raysan5/raylib
+```
 
+2) compile
 ```console
 make
 ```
 
-clean
+## cleaning
 
 ```console
 make clean
